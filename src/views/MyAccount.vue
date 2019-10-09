@@ -1,6 +1,6 @@
 <template>
   <div class="MyAccount">
-    <form class="SignIn">
+    <form class="CreateAccount">
       <br>
       <img src="../assets/login.png" alt width="60" height="60">
       <h3>Sign In</h3>
@@ -17,7 +17,7 @@
         required
       >
       <br>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Create Account</button>
       <button class="btn btn-lg btn-primary btn-block" type="submit">Edit Account</button>
     </form>
     <br>
