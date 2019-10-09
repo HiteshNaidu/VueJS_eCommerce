@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar type="dark" variant="dark">
+    <b-navbar type="dark" variant="dark" class="header mb-5" fixed="top" >
       <b-navbar-brand href="/">ECommerceHMA</b-navbar-brand>
     <b-navbar-nav>
       <b-nav-item  to="/">Home</b-nav-item> |
@@ -18,7 +18,7 @@
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -36,4 +36,3 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
-</style>
