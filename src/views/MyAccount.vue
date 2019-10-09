@@ -2,7 +2,7 @@
   <div class="MyAccount">
     <form class="CreateAccount">
       <br>
-      <img src="../assets/login.png" alt width="60" height="60">
+      <img src="../assets/login.png" alt="" width="60" height="60">
       <h3>Sign In</h3>
       <input
         type="email"
@@ -24,7 +24,7 @@
     <h3>Or</h3>
     <br>
     <form class="GuestLogIn">
-      <img src="../assets/login.png" alt width="60" height="60">
+      <img src="../assets/login.png" alt="" width="60" height="60">
       <h3>Continue as Guest</h3>
       <input
         type="email"
