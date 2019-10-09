@@ -2,7 +2,7 @@
   <div>
     <b-card-group deck class="p-3 mt-5" >
       <b-card
-        title="Title"
+        title="Drops"
         img-src="https://picsum.photos/200/200/?image=41"
         img-alt="Image"
         img-top
@@ -12,7 +12,7 @@
           This content is a little bit longer.
         </b-card-text>
         <template v-slot:footer>
-          <b-button variant="info">Purchase</b-button>
+          <b-button to="/ProductDetails" @click="goDetails('Drops')" variant="info">Purchase</b-button>
         </template>
       </b-card>
       <b-card
@@ -111,3 +111,18 @@
     </b-card-group>
   </div>
 </template>
+
+
+
+<script>
+export default {
+name:"Products",
+methods:{
+  goDetails(title) {
+      this.$store.dispatch("changeProductAction", title );
+      
+    }
+}
+}
+</script>
+

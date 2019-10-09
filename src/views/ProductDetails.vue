@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-4">
-    <h4>Product Name</h4>
+  <div class="mt-5 pt-5">
+    <h4 >Product Name is {{productDetail}}</h4>
     <b-card img-src="https://placekitten.com/300/300" img-alt="Card image" img-left class="mb-3">
       <b-card-text>
         Some quick example text to build on the card and make up the bulk of the card's content.
@@ -10,3 +10,14 @@
   </div>
 
 </template>
+
+
+<script>
+export default {
+computed : {
+  productDetail(){
+     return this.$store.getters.productDetail
+  }
+}
+}
+</script>
