@@ -3,12 +3,12 @@
     <b-navbar type="dark" variant="dark">
       <b-navbar-brand href="/">ECommerceHMA</b-navbar-brand>
     <b-navbar-nav>
-       <b-nav-item  to="/">Home</b-nav-item> |
+      <b-nav-item  to="/">Home</b-nav-item> |
       <b-nav-item  to="/about">About</b-nav-item> |
       <b-nav-item  to="/Products">Products</b-nav-item> |
-      <b-nav-item  to="/ProductDetails">ProductDetails</b-nav-item> |
-      <b-nav-item  to="/MyOrders">MyOrders</b-nav-item> |
-      <b-nav-item  to="/MyAccount">MyAccount</b-nav-item>   
+      <b-nav-item  to="/ProductDetails">Product Details</b-nav-item> |
+      <b-nav-item  to="/MyOrders">My Orders</b-nav-item> |
+      <b-nav-item  to="/MyAccount">My Account</b-nav-item>   
     </b-navbar-nav>
   </b-navbar>
     
