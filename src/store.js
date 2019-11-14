@@ -1,16 +1,11 @@
 import Vue from "vue";
 import Vuex from "vuex";
-<<<<<<< HEAD
 import shop from './api/shop';
-=======
-
->>>>>>> 211a00953182e562d18522734f77154d897859f6
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-<<<<<<< HEAD
     products:[],
     cart:[],
     checkoutStatus:null,
@@ -126,25 +121,3 @@ export default new Vuex.Store({
     }
   }
 });
-=======
-    productDetail: []
-  },
-  getters:{
-productDetail:state=> {
-  return state.productDetail
-}
-  },
-  mutations: {
-    change: (state,product) => {
-      
-      state.productDetail=product;
-      
-    }
-  },
-  actions: {
-    changeProductAction (context, payload) {
-      context.commit('change', payload)
-    }
-  }
-});
->>>>>>> 211a00953182e562d18522734f77154d897859f6
