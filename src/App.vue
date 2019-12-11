@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <b-navbar type="dark" variant="dark" class="header mb-5" fixed="top" >
+    <b-navbar type="dark" variant="dark" class="header mb-5" fixed="top">
       <b-navbar-brand href="/">ECommerceHMA</b-navbar-brand>
-    <b-navbar-nav>
-      <b-nav-item  to="/">Home</b-nav-item> |
-      <b-nav-item  to="/about">About</b-nav-item> |
-      <b-nav-item  to="/Products">Products</b-nav-item> |
-      <b-nav-item  to="/ProductDetails">Product Details</b-nav-item> |
-      <b-nav-item  to="/MyOrders">My Orders</b-nav-item> |
-      <b-nav-item  to="/MyAccount">My Account</b-nav-item>   
-    </b-navbar-nav>
-  </b-navbar>
-    
-    <router-view/>
+      <b-navbar-nav>
+        <b-nav-item to="/">Home</b-nav-item>|
+        <b-nav-item to="/about">About</b-nav-item>|
+        <b-nav-item to="/Products">Products</b-nav-item>|
+        <!-- <b-nav-item  to="/ProductDetails">Product Details</b-nav-item> | -->
+        <b-nav-item to="/MyOrders">My Orders</b-nav-item>|
+        <b-nav-item to="/MyAccount">My Account</b-nav-item>
+      </b-navbar-nav>
+    </b-navbar>
+
+    <router-view />
   </div>
 </template>
 
